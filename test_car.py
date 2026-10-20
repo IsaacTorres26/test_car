@@ -1,4 +1,4 @@
-from machine import Pin, PWM
+from machine import Pin, PWM  # type: ignore[reportMissingImports]
 import time
 
 p_servo = Pin(23, Pin.OUT)
